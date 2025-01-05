@@ -7,7 +7,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha --timeout 5000"
+    "test": "mocha --timeout 5000",
+    "start": "node src/00-objectball.js"
   },
   "repository": {
     "type": "git",
@@ -29,8 +30,7 @@
   "homepage": "https://github.com/learn-co-curriculum/phase-1-object-ball#readme",
   "dependencies": {
     "chai": "^4.2.0",
-    "jsdom": "^9.0",
-    "mocha": "5.2.0",
-    "mocha-jsdom": "~1.1.0"
+    "jsdom": "^25.0.1",
+    "mocha": "^11.0.1"
   }
 }
